@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "react-app"
+  ],
+  "plugins": [
+    ["babel-plugin-idx", {
+      "importName": "./idx"
+    }],
+    "add-module-exports",
+    "@babel/plugin-transform-modules-commonjs"
+  ]
+}
